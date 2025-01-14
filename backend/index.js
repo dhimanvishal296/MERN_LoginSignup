@@ -7,7 +7,7 @@ const cors = require("cors");
 const app = express();
 
 const MONGO_URI =
-  "mongodb+srv://dhimanvishal296:Password%40123@cluster0.z3xck.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://dhimanvishal296:<db_password>@cluster0.z3xck.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0";
 
 // Middleware
 app.use(express.json());
